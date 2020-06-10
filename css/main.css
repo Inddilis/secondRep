@@ -1,0 +1,404 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container
+{
+	max-width: 1110px;
+	margin: 0 auto; 
+}
+
+.headerWr
+{
+	background-color: #F9F6F1;
+}
+
+.header
+{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 61px;
+}
+
+.headerNavTitle
+{
+	font-weight: bold;
+	font-family: Montserrat;
+	display: flex;
+	font-size: 24px;
+	margin-top: -5px;
+}
+
+.headerNavItem
+{
+	display: flex;
+	font-family: Montserrat;
+	margin-left: 35px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.headerNavImg
+{
+	margin-left: 5px;
+}
+
+.headerNav
+{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+}
+
+.headerNavItemList	
+{
+	display: flex;
+}
+
+.headerNavTitleImg
+{
+	margin-right: 15px;
+	margin-top: -6px;
+}
+
+.headerNavBuyTitle
+{
+	font-family: Montserrat;
+	margin-right: 35px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.headerNavBuy
+{
+	display: flex;
+	margin-right: -35px;
+}
+
+.headerNavItemList
+{
+	margin-left: -35px;
+}
+
+.headerBasket5Inf
+{
+	font-family: Montserrat;
+	font-size: 12px;
+	color: #fff;
+}
+
+.headerBasket
+{
+	display: flex;
+	margin-right: 30px;
+
+}
+
+.headerBasket5
+{
+	display: flex;
+	margin-top: 1px;
+}
+
+.headerBasket5Inf
+{
+	width: 33px;
+	height: 16px;
+	background-color: #D7B399;
+	text-align: center;
+}
+
+.headerBasket5 img
+{
+	width: 16px;
+	height: 16px;
+}
+
+.headerBasketImg img
+{
+	margin-top: -7px;
+	margin-right: 15px;
+}
+
+.bannerWr
+{
+	background-color: #F9F6F1;
+	padding-top: 150px;
+}
+
+
+.bannerTopLeft
+{
+	font-family: Montserrat; 
+	width: 50%;
+}
+
+.bannerTopLeftTitle
+{
+	font-size: 30px;
+}
+
+.bannerTopLeftSale
+{
+	font-size: 55px;
+	font-weight: bold;
+	margin-top: 35px;
+}
+
+.bannerTopLeftWatch
+{
+	width: 240px;
+	height: 55px;
+	background-color: #D7B399;
+	margin-top: 55px;
+	
+}
+
+.bannerTopLeftWatchText 
+{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	padding-top: 17px;
+}
+
+.bannerTopLeftWatchText a
+{
+	color: #fff;
+	text-decoration: none;
+} 
+
+.bannerTop
+{
+	display: flex;
+}
+
+.bannerTopRight
+{
+	position: relative;
+	display: flex;
+	width: 556px;
+	height: 377px;
+}
+
+.bannerTopRightText
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Montserrat;
+	font-weight: bold;
+	position: absolute; 
+	top: 40px;
+	right: 7px;
+}
+
+.bannerTopRightBlack
+{
+	font-size: 24px;
+	color: #000;
+	text-align: right;
+	text-decoration: line-through;
+}
+
+.bannerTopRightRed
+{
+	font-size: 36px;
+	color: #D84033;
+	margin-top: 14px; 
+}
+
+.bannerBot
+{
+	display: flex;
+	margin-left: -15px;
+	width: 100%;
+	justify-content: center;
+	padding-top: 130px;
+	padding-bottom: 70px;
+}
+
+.bannerBotItem
+{
+	margin-left: 15px;
+}
+
+.deliveryWr
+{
+	background-color: #212121;
+	height: 235px;
+	display: flex;
+}
+
+.deliveryTitle
+{
+	font-family: Montserrat;
+	font-size: 30px;
+	color: #fff;
+}
+
+.deliveryInf
+{
+	font-family: Montserrat;
+	font-size: 21px;
+	color: #fff;
+	text-align: center;
+	margin-top: 23px;
+}
+
+.deliveryTitle span
+{
+	font-weight: bold;
+}
+
+.delivery
+{
+	margin-top: 80px;
+}
+
+.collectionWr
+{
+	height: 250px;
+	position: relative;
+}
+
+.collectionBG
+{
+	display: flex;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.collection
+{
+	display: flex;
+}
+
+.collectionManBlock
+{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.collectionGirl
+{
+	width: 50%;
+}
+
+.collectionBackgroundLeft
+{
+	height: 250px;
+	width: 50%;
+	background-color: #F9F6F1;
+}
+
+.collectionBackgroundRight
+{
+	height: 250px;
+	width: 50%;
+	background-color: #F4F4F4;
+}
+
+.collectionMan
+{
+	z-index: 9999;
+}
+
+.collectionGirl
+{
+	z-index: 9999;
+}
+
+.collectionMan
+{
+	display: flex;
+	font-family: Montserrat;
+
+}
+
+.collectionManImg
+{
+	margin-left: 45px;
+	margin-top: 77px;
+}
+
+.collectionManTitle
+{
+	margin-top: 60px;
+	font-size: 24px;
+	width: 366px;
+}
+
+.collectionManTitle span
+{
+	font-weight: 500
+}
+
+.collectionManInf
+{
+	font-size: 16px;
+	margin-top: 25px;
+}
+
+.collectionManArrow
+{
+	width: 80px;
+	height: 30px;
+	background-color: #D7B399;
+	margin-top: 40px;
+}
+
+.imgArrow
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 4px;
+}
+
+.collectionGirl
+{
+	display: flex;
+	font-family: Montserrat;
+}
+
+.collectionGirlImg
+{
+	margin-top: 79px;
+}
+
+.clothes
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 4px;
+}
+
+.clothesImg
+{
+
+}
+
+.clothesItemInf
+{
+	position: absolute;
+	left: 30px;
+	bottom: 24px;
+	font-family: Montserrat;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.clothesItem
+{
+	position: relative;
+	margin-top: -4px;
+}
+
+.clothesWr
+{
+	padding-bottom: 150px;
+}
